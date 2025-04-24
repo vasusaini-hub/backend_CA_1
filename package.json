@@ -1,20 +1,23 @@
 {
-  "name": "backend-ca3",
+  "name": "backend-ca-1",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node express.js",
-    "dev": "nodemon express.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasusaini-hub/backend_CA3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasusaini-hub/backend_CA3/issues"
+  },
+  "homepage": "https://github.com/vasusaini-hub/backend_CA3#readme",
   "description": "",
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "nodemon": "^3.1.9"
+    "express": "^5.1.0"
   }
 }
